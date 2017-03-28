@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+
+<script src="https://unpkg.com/vue-resource@1.2.1/dist/vue-resource.js"></script>
+<script src="https://unpkg.com/vue/dist/vue.js"></script>
+<html lang="en">
+<head>
+    <meta  charset="UTF-8">
+    <title>lesson</title>
+</head>
+
+<body>
+    <div >
+
+    <ul id="app">
+        <li v-for="school in schools">{{school}}</li>
+    </ul>
+
+
+
+    </div>
+
+
+<script>
+    new Vue ({
+        el: '#app',
+        data: {
+            schools:[
+            '浙江大学',
+            '伊利诺伊香槟分校'
+            ],
+            degree:[
+
+            ]
+
+
+
+        }
+
+    });
+
+
+
+
+</script>
+
+
+
+</body>
+</html>
