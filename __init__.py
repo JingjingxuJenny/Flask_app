@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def homepage():
-    return app.send_static_file("school.html")
+    return app.send_static_file("vue_js.html")
 
 
 
@@ -12,9 +12,9 @@ def homepage():
 def get_CSS():
     return app.send_static_file("/static/css/index.css")
 
-@app.route('/worldcloud.png')
-def get_image():
-    return app.send_static_file("/static/worldcloud.png")
+@app.route('/data')
+def data():
+    return app.send_static_file("home.html")
 
 if __name__ == "__main__":
     app.run()
