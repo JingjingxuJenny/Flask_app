@@ -5,7 +5,7 @@ import json
 
 @app.route('/')
 def homepage():
-    return app.send_static_file("vue_js.html")
+    return app.send_static_file("index1.html")
 
 @app.route('/css/index.css')
 def get_CSS():

@@ -1,32 +1,61 @@
-<script src="https://unpkg.com/vue-resource@1.2.1/dist/vue-resource.js"></script>
-<script src="https://unpkg.com/vue/dist/vue.js"></script>
-<div >
-    <ul id="app">
-        <li v-for="school in schools">{{school}}</li>
-    </ul>
+<div>
+    <div class="jumbotron">
+      <h1 class="display-3 text-success">个人网站开发</h1>
+      <br>
+      <p class="lead">IL USA 2017年3月–2017年4月</p>
+      <hr class="my-2">
+      <ul>
+            <li>使用Flask与Vue.js制作了一个简单的个人网站，熟悉了开发的过程</li>
+            <li>利用Flask作为后端提供API
+</li>
+            <li> 用vue.js做前端的渲染</li>
+        </ul>
+
+
+
+
+      <h1 class="display-3 text-success">多相流体建模</h1>
+      <br>
+      <p class="lead">IL USA     2017年2月–2017年4月</p>
+      <hr class="my-2">
+
+        <ul>
+            <li>利用python生成符合格式的基础数据文件，其中包括孔隙的直径，排序等信息</li>
+            <li>将生成的数据信息在VMD软件中可视化</li>
+            <li> 利用生成的文件研究孔隙的各种特性，例如孔隙度，联通度等</li>
+        </ul>
+
+
+
+        <h1 class="display-3 text-success">遥感图像识别</h1>
+      <br>
+      <p class="lead">IL USA     2016年5月–2017年5月</p>
+      <hr class="my-2">
+      <ul>
+            <li>利用GDAL包读取遥感图像并将RBG数据转换为HIS表示作为特征</li>
+            <li>利用python机器学习的方法自动分类遥感图片中的水体与非水体</li>
+            <li>将识别的结果根据原数据的坐标投影转化为shape文件输出</li>
+        </ul>
+
+
+
+
+        <h1 class="display-3 text-success">城市排水系统设计</h1>
+      <br>
+      <p class="lead">课程项目 IL USA 2013年秋</p>
+      <hr class="my-2">
+      <ul>
+            <li>在一个四人小组中利用Tolono城市的降雨数据生成设计暴雨，计算多余的降水</li>
+            <li>设计了雨水管道网络，滞留塘，沟渠用来带走多余的降水</li>
+            <li>完成了一个同时面向管理人员与技术人员的综合报告</li>
+        </ul>
+
+
+
+
+
+
+    </div>
 </div>
 
-
-<script>
-    new Vue ({
-        el: '#app',
-        data: {
-            schools:[
-            '浙江大学',
-            '伊利诺伊香槟分校'
-            ],
-            degree:[
-
-            ]
-
-
-
-        }
-
-    });
-
-
-
-
-</script>
 
